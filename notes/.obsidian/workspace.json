@@ -1,0 +1,261 @@
+{
+  "main": {
+    "id": "17779bad75cc3a62",
+    "type": "split",
+    "children": [
+      {
+        "id": "8717abd8f3e71271",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "59b9026921f642fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "gamma-and-beta-functions.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "gamma-and-beta-functions"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "73e691d39847dd00",
+    "type": "split",
+    "children": [
+      {
+        "id": "fc94015652f43b1e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e74bc28617e39f7b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "880f7b97ea9cd532",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:special-functions",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d91615197629265c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 298.5
+  },
+  "right": {
+    "id": "27b4ba41371db1c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "82e7e89de729a2d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d0618c9438523a33",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "change-of-variables.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for change-of-variables"
+            }
+          },
+          {
+            "id": "bd0f22c25268ff83",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Daily/2026-02-19.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2026-02-19"
+            }
+          },
+          {
+            "id": "059b5c4cdd5f5d0c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "758b7aa620199e7a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "f93bd3bee83dc3d8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "change-of-variables.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of change-of-variables"
+            }
+          },
+          {
+            "id": "a74b16fcbbf6c659",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "change-of-variables.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for change-of-variables"
+            }
+          },
+          {
+            "id": "b1caed6485f82620",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 792.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "copilot:Open Copilot Chat": false
+    }
+  },
+  "active": "59b9026921f642fe",
+  "lastOpenFiles": [
+    "weierstrass-product-for-gamma.md",
+    "copilot/copilot-conversations/I_always_knew_Gamma(x)_as_the_integral_representation._Never_knew@20260222_160113.md",
+    "infinite-products.md",
+    "mobius-function.md",
+    "riemann-zeta-function.md",
+    "dominated-convergence-theorem.md",
+    "zeta-function-in-probability.md",
+    "dirichlet-series.md",
+    "lebesgue-integration.md",
+    "abels-test-for-convergence.md",
+    "Odds & Ends/AI/chinchilla-scaling-laws.md",
+    "Daily/2026-02-22.md",
+    "Odds & Ends/Gall's law.md",
+    "Odds & Ends/Historical Topology.md",
+    "uniform-convergence-of-derivatives.md",
+    "nowhere-differentiable-function.md",
+    "images/weierstrass-function.png",
+    "images",
+    "Todo list.md",
+    "Untitled.md",
+    "Todo",
+    "Untitled",
+    "_dashboard.md",
+    "alternating-series-product-identity.md",
+    "cesaro-mean-theorem.md",
+    "trigonometric-series-identities.md",
+    "pi-formulas-from-arctangent.md",
+    "generalized-binomial-series.md",
+    "absolute-convergence.md",
+    "arctangent-series.md",
+    "Odds & Ends/AI/Qwen2-Next-Kimi-Linear.webp",
+    "Odds & Ends/AI",
+    "Odds & Ends",
+    "Daily",
+    "copilot/copilot-conversations",
+    "copilot/copilot-custom-prompts",
+    "copilot",
+    "Untitled.canvas"
+  ]
+}

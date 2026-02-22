@@ -1,0 +1,9 @@
+[project]
+name = "mathnotes"
+version = "0.1.0"
+description = "Vault utilities for MathNotes Obsidian vault"
+requires-python = ">=3.13"
+dependencies = ["pyyaml>=6.0"]
+
+[project.scripts]
+vault-search = "scripts.vault_search:main"

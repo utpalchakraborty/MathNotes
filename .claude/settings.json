@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mv *)",
+      "Bash(ls:*)",
+      "Bash(cd:*)",
+      "Bash(mkdir:*)"
+    ]
+  },
+  "enabledPlugins": {
+    "obsidian@obsidian-skills": true
+  }
+}
