@@ -20,13 +20,18 @@ Invoke these skills for specific workflows:
 
 The `notes/` directory is an **Obsidian vault**. All output files live there and must be Obsidian-compatible.
 
+### Folder Structure
+
+Math notes live under `notes/math/` in topic subfolders. List existing subfolders (`ls notes/math/`) and review their contents to determine scope when placing new notes. If no subfolder fits, place in `notes/math/` directly. Non-math content goes in `notes/Odds & Ends/` — only touch when explicitly asked.
+
+### Conventions
+
 - **Wikilinks must use piped format**: `[[kebab-filename|Display Name]]`. Never bare alias `[[Display Name]]` — creates phantom graph nodes.
   - Correct: `[[tannerys-theorem|Tannery's Theorem]]`
   - Wrong: `[[Tannery's Theorem]]`
 - **Aliases**: Every note must include `aliases` in frontmatter mapping natural title(s) to the kebab-case file.
 - Tags use Obsidian format: `tags: [real-analysis, convergence]`
 - Headings hierarchical: `#` > `##` > `###`
-- `notes/Odds & Ends/` is non-math content — only touch when explicitly asked.
 
 ## Note Format
 
@@ -46,7 +51,7 @@ Body with LaTeX math...
 - [[kebab-filename|Related Concept]]
 ```
 
-- Files in `notes/`, named in kebab-case: `uniform-convergence.md`
+- Files in `notes/math/<subfolder>/`, named in kebab-case: `uniform-convergence.md`
 - Multi-topic scans split into separate files
 
 ## LaTeX Conventions

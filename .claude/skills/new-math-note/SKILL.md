@@ -58,7 +58,9 @@ Proofs, examples, intuition, corollaries — whatever the content calls for.
 - [ ] LaTeX uses `$...$` inline, `$$...$$` display (see CLAUDE.md for full conventions)
 - [ ] Wikilinks use piped kebab-case: `[[kebab-file|Display Name]]`
 - [ ] `## See Also` section with links to related vault notes
-- [ ] File saved to `notes/` with kebab-case name
+- [ ] File saved to the correct subfolder under `notes/math/` with kebab-case name:
+  - List existing subfolders (`ls notes/math/`) and review their contents to determine scope
+  - Place in the best-fitting subfolder, or `notes/math/` directly if none fits
 - [ ] Mathematical content is correct — verify before writing
 - [ ] Wikilinks verified: `uv run python scripts/vault_search.py links --check`
 

@@ -50,6 +50,11 @@ Create a todo per step. Complete each step for ALL scans before advancing.
 - Use `uv run python scripts/vault_search.py search --titles "<topic>"` to check if a note on the topic exists, then `search "<topic>"` for full-text matches if needed
 - **Integrate into existing notes** where content overlaps; only create new files when no suitable note exists
 - Split multi-topic scans into separate files
+- **Folder placement** — math notes live under `notes/math/` in topic subfolders:
+  - List existing subfolders (`ls notes/math/`) and review their contents to understand each folder's scope
+  - Place the new note in the best-fitting subfolder based on its topic and tags
+  - If no existing subfolder fits, place it in `notes/math/` directly
+  - Non-math content goes in `notes/Odds & Ends/`
 - Every note needs proper YAML frontmatter (see `obsidian:obsidian-markdown` Properties section):
   - `aliases`, `tags`, `source`, `date` — all required
   - `source:` field points to final archived path: `sources/YYYY-MM-DD/filename.jpeg`

@@ -1,3 +1,0 @@
-
-Wierstrass pic
-Timer
