@@ -67,6 +67,7 @@ $$
 ## See Also
 
 - [[continued-fraction-convergents|Continued Fraction Convergents]] — Wallis-Euler recurrence, convergent monotonicity, and convergence criteria
+- [[periodic-continued-fractions|Periodic Continued Fractions]] — Lagrange's theorem and the CF of $\sqrt{d}$
 - [[euler-continued-fraction-formula|Euler's Continued Fraction Formula]]
 - [[exponential-logarithm-and-euler-constant|Exponential, Logarithm, and Euler Constant]]
 - [[pi-formulas-from-arctangent|Pi Formulas from Arctangent]]

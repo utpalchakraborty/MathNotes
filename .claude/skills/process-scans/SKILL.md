@@ -61,6 +61,17 @@ Create a todo per step. Complete each step for ALL scans before advancing.
 - Heading hierarchy: `#` > `##` > `###`
 - End each note with `## See Also` containing wikilinks to related concepts
 - Use `![[note#^block-id]]` embeds to reference specific theorems/definitions from other notes rather than restating them
+- **Spaced repetition flashcards** — add a nested `flashcards/<subfolder>` tag matching the note's folder (e.g., `flashcards/analysis-foundations`, `flashcards/special-topics`, `flashcards/series-and-convergence`, `flashcards/integration-and-measure`). Then add Q&A cards for ==only the core concepts== a student must internalize:
+  - Named theorems (statement + key hypotheses)
+  - Definitions that are prerequisites for other results
+  - Critical distinctions (e.g., "what extra hypothesis does the complex case need?")
+  - Do NOT card: worked examples, proof steps, corollaries that restate the main theorem, or anything that just repeats the surrounding text
+  - Place each card directly after the theorem/definition it tests, using multi-line `?` format:
+    ```
+    State Theorem X.
+    ?
+    Concise statement with key hypotheses.
+    ```
 
 ### 4. Verify Correctness
 
@@ -102,6 +113,7 @@ Present a final summary that includes:
 - New notes created (filenames + one-line description)
 - Existing notes updated (filenames + what changed)
 - **Diagrams**: Explicitly list every diagram added — which note it was added to and what it visualizes. If no diagrams were added, state that and explain why (e.g., "all notes were straightforward enough that diagrams would not add clarity").
+- **Flashcards**: Number of Q&A cards added per note and what they cover.
 
 ## Boundaries
 

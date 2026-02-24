@@ -4,58 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8717abd8f3e71271",
+        "id": "0b49cd35c0979126",
         "type": "tabs",
-        "dimension": 73.75215146299485,
         "children": [
           {
-            "id": "59b9026921f642fe",
+            "id": "5f410f079169e364",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/series-and-convergence/fourier-series.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "fourier-series"
-            }
-          }
-        ]
-      },
-      {
-        "id": "a11d42992d876c61",
-        "type": "tabs",
-        "dimension": 26.247848537005165,
-        "children": [
-          {
-            "id": "2d9f3c5880eab802",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "a91cc992bdb7481f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily/2026-02-22.md",
+                "file": "math/analysis-foundations/analytic-functions-and-cauchy-riemann.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -70,11 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-02-22"
+              "title": "analytic-functions-and-cauchy-riemann"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:special-functions",
+                "query": "hypergeo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -209,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/series-and-convergence/fourier-series.md",
+                "file": "math/analysis-foundations/analytic-functions-and-cauchy-riemann.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of fourier-series"
+              "title": "Outline of analytic-functions-and-cauchy-riemann"
             }
           },
           {
@@ -224,10 +181,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "math/series-and-convergence/fourier-series.md"
+                "file": "math/analysis-foundations/analytic-functions-and-cauchy-riemann.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for fourier-series"
+              "title": "File properties for analytic-functions-and-cauchy-riemann"
             }
           },
           {
@@ -239,9 +196,19 @@
               "icon": "message-square",
               "title": "Copilot"
             }
+          },
+          {
+            "id": "12e5939d1e2155e7",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -256,37 +223,39 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "copilot:Open Copilot Chat": false
+      "copilot:Open Copilot Chat": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e74bc28617e39f7b",
+  "active": "5f410f079169e364",
   "lastOpenFiles": [
+    "math/analysis-foundations/construction-of-the-reals.md",
+    "math/analysis-foundations/stone-weierstrass-theorem.md",
+    "math/analysis-foundations/analytic-functions-and-cauchy-riemann.md",
+    "math/analysis-foundations/nowhere-differentiable-function.md",
+    "math/analysis-foundations/bounded-variation-sequences.md",
+    "math/analysis-foundations/Arzelà-Ascoli Theorem.md",
+    "Daily/2026-02-17.md",
+    "Daily/2026-02-24.md",
+    "Daily/2026-02-18.md",
+    "math/special-topics/periodic-continued-fractions.md",
+    "_dashboard.md",
+    "Clippings/Contra Citrini7.md",
+    "math/special-topics/quadratic-integers-and-fields.md",
+    "Clippings/THE 2028 GLOBAL INTELLIGENCE CRISIS.md",
+    "math/special-topics/continued-fraction-convergents.md",
+    "Clippings",
+    "math/special-topics/hypergeometric-function.md",
+    "math/series-and-convergence/hyperbolic-functions.md",
+    "math/series-and-convergence/fourier-series.md",
+    "math/special-topics/legendres-approximation-theorem.md",
     "math/integration-and-measure/l2-spaces.md",
     "math/analysis-foundations/convergent-sequences.md",
-    "math/analysis-foundations/bounded-variation-sequences.md",
-    "math/analysis-foundations/nowhere-differentiable-function.md",
     "Daily/2026-02-22.md",
     "Daily/2026-02-19.md",
-    "Daily/2026-02-18.md",
     "euler-continued-fraction-formula.md",
-    "_dashboard.md",
     "math/_dashboard.md",
     "math/smart-alec-quotes.md",
-    "math/algebraic-completeness.md",
-    "math/special-topics/zeta-function-in-probability.md",
-    "math/special-topics/weierstrass-product-for-gamma.md",
-    "math/special-topics/trigonometric-series-identities.md",
-    "math/special-topics/riemann-zeta-function.md",
-    "math/special-topics/pi-formulas-from-arctangent.md",
-    "math/special-topics/pi-and-square-free-integers.md",
-    "math/special-topics/mobius-function.md",
-    "math/special-topics/infinite-continued-fractions.md",
-    "math/special-topics/exponential-logarithm-and-euler-constant.md",
-    "math/special-topics/eulers-product-formula-and-wallis.md",
-    "math/special-topics/euler-continued-fraction-formula.md",
-    "math/special-topics/dirichlet-series.md",
-    "math/special-topics/continued-fraction-convergents.md",
-    "math/special-topics/arctangent-series.md",
     "math/special-topics",
     "math/series-and-convergence",
     "math/integration-and-measure",
@@ -297,7 +266,6 @@
     "analysis-foundations",
     "series-and-convergence",
     "images/weierstrass-function.png",
-    "images",
     "Odds & Ends/AI/Qwen2-Next-Kimi-Linear.webp",
     "Untitled.canvas"
   ]

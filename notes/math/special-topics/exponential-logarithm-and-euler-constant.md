@@ -11,6 +11,7 @@ source:
   - sources/2026-02-16/trig-euler-formula.jpeg
   - sources/2026-02-21/pi-definition-fta-inverse-trig.jpeg
   - sources/2026-02-21/irrationality-of-e.jpeg
+  - sources/2026-02-24/complex-exponential-derivation.jpeg
 date: 2026-02-16
 ---
 
@@ -34,10 +35,30 @@ To make sense of irrational (and complex) exponents, we need to construct the ex
 
 ^exp-definition
 
+### Derivation from the Differential Equation $f'(z) = f(z)$
+
+The exponential series can be derived from scratch by seeking a [[power-series|power series]] $f(z) = \sum_{n=0}^{\infty} a_n z^n$ satisfying:
+
+$$f'(z) = f(z), \qquad f(0) = 1$$
+
+Differentiating term-by-term:
+
+$$f'(z) = a_1 + 2a_2 z + 3a_3 z^2 + \cdots + n a_n z^{n-1} + \cdots$$
+
+Matching coefficients in $f'(z) = f(z)$ gives $a_{n-1} = n a_n$, i.e., $a_n = \dfrac{a_{n-1}}{n}$. With $a_0 = f(0) = 1$, this yields ==**$a_n = \dfrac{1}{n!}$**== for all $n$, recovering the series definition above. The resulting series $\sum z^n/n!$ converges for all $z \in \mathbb{C}$ (radius of convergence $R = \infty$ by the [[power-series#^cauchy-hadamard-formula|Cauchy--Hadamard formula]], since $\limsup \sqrt[n]{1/n!} = 0$).
+
+^exp-from-differential-equation
+
+%%clarification: This derivation shows the exponential is the unique power series solution to f'(z) = f(z) with f(0) = 1. The approach works identically for real and complex variables — the coefficients are forced by the recurrence, and the resulting series has infinite radius of convergence.%%
+
+How can the exponential series $e^z = \sum z^n/n!$ be derived from a differential equation?
+?
+Assume $f(z) = \sum a_n z^n$ satisfies $f'(z) = f(z)$ with $f(0) = 1$. Matching coefficients gives $a_{n-1} = n a_n$, so $a_n = a_{n-1}/n$. With $a_0 = 1$, this forces $a_n = 1/n!$.
+
 ### Key Properties
 
 - $E(z_1) \cdot E(z_2) = E(z_1 + z_2)$ (the addition formula)
-- $E'(z) = E(z)$ (this can also serve as the definition)
+- $E'(z) = E(z)$ (this can also serve as the definition — see [[#^exp-from-differential-equation|derivation above]])
 - $e^x$ is **continuous** and **strictly monotone** (increasing) on $\mathbb{R}$
 - $\displaystyle\lim_{x \to \infty} x^n e^{-x} = 0$ for every $n$
 
@@ -277,3 +298,4 @@ From these definitions, the usual properties of $\sin$ and $\cos$ follow.
 - [[tannerys-theorem|Tannery's Theorem]]
 - [[algebraic-completeness|Algebraic Completeness]]
 - [[fourier-series|Fourier Series]]
+- [[analytic-functions-and-cauchy-riemann|Analytic Functions and Cauchy-Riemann Equations]] — analyticity and the exponential as a holomorphic function

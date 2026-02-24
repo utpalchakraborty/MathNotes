@@ -1,5 +1,7 @@
 [
   "dataview",
   "obsidian-latex-suite",
-  "copilot"
+  "copilot",
+  "obsidian-linter",
+  "obsidian-spaced-repetition"
 ]

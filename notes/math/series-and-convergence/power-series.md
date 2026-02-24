@@ -8,6 +8,7 @@ source:
   - sources/2026-02-21/root-ratio-kummers-test.jpeg
   - sources/2026-02-22/composition-of-power-series.jpeg
   - sources/2026-02-22/power-series-division-bernoulli-numbers.jpeg
+  - sources/2026-02-24/complex-power-series-convergence.jpeg
 date: 2026-02-16
 ---
 
@@ -117,6 +118,57 @@ $$\sum_{i=1}^{\infty} \sum_{j=1}^{\infty} a_{ij} = \sum_{j=1}^{\infty} \sum_{i=1
 > [!tip] Reduction to reciprocal
 > To prove division, it suffices to show that $1/g(z)$ is a power series — then $f(z)/g(z) = f(z) \cdot (1/g(z))$ is a product of power series, which is handled by the [[absolute-convergence|Cauchy product]].
 
+## Complex Power Series
+
+%%clarification: The theory developed above for real power series extends naturally to the complex setting, where the interval of convergence becomes a disk in the complex plane.%%
+
+In the complex setting, a power series takes the form:
+
+$$P(z) = a_0 + a_1 z + a_2 z^2 + \cdots = \sum_{n=0}^{\infty} a_n z^n, \qquad z \in \mathbb{C}$$
+
+### Circle of Convergence
+
+> [!definition] Definition (Circle of Convergence)
+> Every complex power series $P(z) = \sum a_n z^n$ has a **circle of convergence** — a circle $|z| = R$ in the complex plane such that:
+>
+> - $|z| < R$: the series **converges absolutely**
+> - $|z| > R$: the series **diverges**
+> - $|z| = R$: convergence must be checked case-by-case
+>
+> The radius $R$ is given by the [[#^cauchy-hadamard-formula|Cauchy--Hadamard formula]]:
+>
+> $$\frac{1}{R} = \limsup_{n \to \infty} \sqrt[n]{|a_n|}$$
+
+^circle-of-convergence
+
+%%clarification: The circle of convergence is the complex analogue of the interval of convergence $(-R, R)$ for real power series. On the real line, $|x| < R$ gives an interval; in the complex plane, $|z| < R$ gives an open disk.%%
+
+What is the complex analogue of the interval of convergence for a real power series?
+?
+The **circle of convergence** $|z| = R$, where $R$ is the radius of convergence. The series converges absolutely inside the open disk $|z| < R$ and diverges outside $|z| > R$.
+
+### Analyticity
+
+> [!theorem] Theorem (Convergent Power Series are Analytic)
+> If $P(z) = \sum a_n z^n$ converges for $|z| < R$, then ==$P(z)$ is [[analytic-functions-and-cauchy-riemann|analytic]] on the open disk $|z| < R$==.
+
+^complex-power-series-analytic
+
+%%clarification: Analyticity in the complex sense (holomorphicity) is a much stronger property than real smoothness — a function analytic on an open set is automatically infinitely differentiable there and equals its own Taylor series. This is in stark contrast to the real case, where smooth does not imply analytic.%%
+
+### Uniform Convergence on Compact Subdisks
+
+> [!theorem] Theorem (Uniform Convergence on Compact Subdisks)
+> If $P(z) = \sum a_n z^n$ has radius of convergence $R > 0$, then for every $0 < \rho < R$, the series ==converges **uniformly** on the closed disk $|z| \leq \rho$==.
+
+^uniform-convergence-compact-subdisk
+
+%%clarification: This is the complex version of the real statement that a power series converges uniformly on $[-r, r]$ for $0 < r < R$. Uniform convergence on compact subdisks is key: it justifies term-by-term differentiation and integration of complex power series, and underpins the proof that convergent power series are analytic.%%
+
+How does the uniform convergence property of complex power series differ from the real case?
+?
+In the real case, a power series converges uniformly on compact subintervals $[-r, r]$ for $0 < r < R$. In the complex case, it converges uniformly on compact subdisks $|z| \leq \rho$ for $0 < \rho < R$. Both are instances of uniform convergence on compact subsets of the domain of convergence.
+
 ## See Also
 
 - [[taylor-polynomials|Taylor Polynomials]] — finite partial sums of the Taylor series
@@ -128,3 +180,4 @@ $$\sum_{i=1}^{\infty} \sum_{j=1}^{\infty} a_{ij} = \sum_{j=1}^{\infty} \sum_{i=1
 - [[limsup-and-liminf|Limsup and Liminf]] — the Cauchy--Hadamard formula relies on limsup
 - [[series-convergence-tests|Series Convergence Tests]] — root test, ratio test, and their relationship
 - [[bernoulli-and-euler-numbers|Bernoulli and Euler Numbers]] — defined via power series division
+- [[analytic-functions-and-cauchy-riemann|Analytic Functions and Cauchy-Riemann Equations]] — analyticity of convergent power series in the complex plane

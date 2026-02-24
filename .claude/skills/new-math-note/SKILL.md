@@ -63,6 +63,7 @@ Proofs, examples, intuition, corollaries — whatever the content calls for.
   - Place in the best-fitting subfolder, or `notes/math/` directly if none fits
 - [ ] Mathematical content is correct — verify before writing
 - [ ] Wikilinks verified: `uv run python scripts/vault_search.py links --check`
+- [ ] Flashcards: add a nested `flashcards/<subfolder>` tag matching the note's folder (e.g., `flashcards/analysis-foundations`, `flashcards/special-topics`). Add Q&A cards (`?` format) for only core concepts — named theorems, key definitions, critical distinctions. Skip examples, proof steps, and anything that just restates surrounding text
 
 ## When Extending an Existing Note
 
